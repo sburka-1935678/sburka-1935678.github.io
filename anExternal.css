@@ -1,0 +1,43 @@
+body {
+    background-color: #f5dadf;
+    font-family: "Apercu";
+    color: red;
+   }
+
+.p {
+   background-color: red; 
+}
+
+h1 {
+   border: dashed 3px white;
+   margin-bottom: 10px;
+   border-radius: 25px;
+   text-align: center;
+   font-size: 45px;
+}
+
+#newFont {
+   font-family: "monospace";
+}
+
+.small {
+   margin-left: 250px;
+}
+
+.container {
+   position: relative;
+   text-align: center;
+   color: white;
+ }
+
+ .centered {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 45px;
+ }
+
+ #floatingimage {
+    float: right;
+ }
